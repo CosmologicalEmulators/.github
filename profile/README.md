@@ -14,4 +14,4 @@ These codes are based on a lower level package, `AbstractEmulator.jl`, where the
 
 ## Publications
 The codes previously listed are used in the following publications:
-- Bonici, Bianchini, and Ruiz-Zapatero, Capse.jl: efficient and auto-differentiable CMB power spectra emulation [![arXiv](https://img.shields.io/badge/arXiv-2307.14339-b31b1b.svg)](https://arxiv.org/abs/2307.14339)
+- Bonici, Bianchini, and Ruiz-Zapatero, _Capse.jl: efficient and auto-differentiable CMB power spectra emulation_ [![arXiv](https://img.shields.io/badge/arXiv-2307.14339-b31b1b.svg)](https://arxiv.org/abs/2307.14339)
