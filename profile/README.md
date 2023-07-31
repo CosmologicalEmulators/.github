@@ -1,6 +1,6 @@
 # CosmologicalEmulators
 
-<img width="250" alt="CosmologicalEmulators logo" src="https://github.com/CosmologicalEmulators/Bora.jl/assets/58727599/aa69a7a0-52a0-498d-ad6f-aa15bfa39b82">
+<img width="250" alt="CosmologicalEmulators logo" src="https://github.com/CosmologicalEmulators/.github/assets/58727599/e8f44547-113c-48a0-b69d-0d14957f82e2">
 
 This organizations puts together several codes, whose aim is to emulate Cosmological observables as predicted by Einste-Boltzmann solvers and Perturbation Theory.
 
