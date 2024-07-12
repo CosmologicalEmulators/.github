@@ -2,7 +2,7 @@
 
 <img width="250" alt="CosmologicalEmulators logo" src="https://github.com/CosmologicalEmulators/.github/assets/58727599/e8f44547-113c-48a0-b69d-0d14957f82e2">
 
-This Github organization puts together several codes, whose aim is to emulate cosmological observables as predicted by Einsten-Boltzmann solvers and Perturbation Theory.
+This Github organization puts together several codes, whose aim is to emulate cosmological observables as predicted by Einsten-Boltzmann solvers and Perturbation Theory codes.
 
 Actually, the observables we emulates are:
 
@@ -10,9 +10,9 @@ Actually, the observables we emulates are:
 - BAO correlation function with [`Bora.jl`](https://github.com/CosmologicalEmulators/Bora.jl)
 - Galaxy Clustering Power Spectrum multipoles based on EFT with [`Effort.jl`](https://github.com/CosmologicalEmulators/Effort.jl)
 
-Our emulators are built using the Julia programming language, although most of them have a Python wrapper to enable usage in the pipelines commonly employed by the cosmological community.
+Our emulators are built using the Julia programming language, although most of them have a Python wrapper to enable usage in the pipelines commonly employed by the cosmological community. Furthermore, we are currently working on pure Jax translations for some of our emulators.
 
-Currently, we employ two different neural network backends:
+Currently, we employ two different neural network backends for the Julia emulators:
 
 - [`SimpleChains.jl`](https://github.com/PumasAI/SimpleChains.jl), a high-performance framework tailored for small NNs running on a CPU
 - [`Lux.jl`](https://lux.csail.mit.edu/stable/), which is fully GPU compatible
