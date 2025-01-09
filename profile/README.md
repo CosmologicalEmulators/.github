@@ -27,9 +27,9 @@ Our emulators are differentiable, _i.e._ we can use automatic (also dubbed _algo
 
 Our codes have been officially released in the following publications:
 - Bonici, Bianchini, and Ruiz-Zapatero, _Capse.jl: efficient and auto-differentiable CMB power spectra emulation_ [![arXiv](https://img.shields.io/badge/arXiv-2307.14339-b31b1b.svg)](https://arxiv.org/abs/2307.14339)
-- Bonici, D'Amico, Bel Carbone, _Effort.jl:  a fast and differentiable emulator for the Effective Field Theory of the Large Scale Structure of the Universe_ [![arXiv](https://img.shields.io/badge/arXiv-2501.04639-b31b1b.svg)](https://arxiv.org/abs/2501.04639)
+- Bonici, D'Amico, Bel, and Carbone, _Effort.jl:  a fast and differentiable emulator for the Effective Field Theory of the Large Scale Structure of the Universe_ [![arXiv](https://img.shields.io/badge/arXiv-2501.04639-b31b1b.svg)](https://arxiv.org/abs/2501.04639)
 
 The codes previously listed are used in the following publications:
-- Paradiso, Bonici, Chen, Percival, D'Amico, Zhang, McGee, _Reducing nuisance prior sensitivity via non-linear reparameterization, with application to EFT analyses of large-scale structure_ [![arXiv](https://img.shields.io/badge/arXiv-2412.03503-b31b1b.svg)](https://arxiv.org/abs/2412.03503)
+- Paradiso, Bonici, Chen, Percival, D'Amico, Zhang, and McGee, _Reducing nuisance prior sensitivity via non-linear reparameterization, with application to EFT analyses of large-scale structure_ [![arXiv](https://img.shields.io/badge/arXiv-2412.03503-b31b1b.svg)](https://arxiv.org/abs/2412.03503)
 - SPT Collaboration, _Cosmology From CMB Lensing and Delensed EE Power Spectra Using 2019-2020 SPT-3G Polarization Data_ [![arXiv](https://img.shields.io/badge/arXiv-2307.14339-b31b1b.svg)](https://arxiv.org/abs/2307.14339)
-- Zhang, Bonici, D'Amico, Paradiso, Percival, _HOD-informed prior for EFT-based full-shape analyses of LSS_ [![arXiv](https://img.shields.io/badge/arXiv-2409.12937-b31b1b.svg)](https://arxiv.org/abs/2409.12937)
+- Zhang, Bonici, D'Amico, Paradiso, and Percival, _HOD-informed prior for EFT-based full-shape analyses of LSS_ [![arXiv](https://img.shields.io/badge/arXiv-2409.12937-b31b1b.svg)](https://arxiv.org/abs/2409.12937)
