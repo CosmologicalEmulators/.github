@@ -7,8 +7,10 @@ This Github organization puts together several codes, whose aim is to emulate co
 Actually, the observables we emulates are:
 
 - CMB angular Power Spectrum, with [`Capse.jl`](https://github.com/CosmologicalEmulators/Capse.jl)
-- BAO correlation function with [`Bora.jl`](https://github.com/CosmologicalEmulators/Bora.jl)
 - Galaxy Clustering Power Spectrum multipoles based on EFT with [`Effort.jl`](https://github.com/CosmologicalEmulators/Effort.jl)
+- BAO correlation function with [`Bora.jl`](https://github.com/CosmologicalEmulators/Bora.jl)
+
+We also provide a package, [`EmulatorsTrainer.jl`](https://github.com/CosmologicalEmulators/EmulatorsTrainer.jl), that has utilities to create training datasets, train emulators, and validate their performance.
 
 Our emulators are built using the Julia programming language, although most of them have a Python wrapper to enable usage in the pipelines commonly employed by the cosmological community. Furthermore, we are currently working on pure Jax translations for some of our emulators.
 
@@ -17,7 +19,7 @@ Currently, we employ two different neural network backends for the Julia emulato
 - [`SimpleChains.jl`](https://github.com/PumasAI/SimpleChains.jl), a high-performance framework tailored for small NNs running on a CPU
 - [`Lux.jl`](https://lux.csail.mit.edu/stable/), which is fully GPU compatible
 
-Although the former is (in general) faster for our applications, the latter opens to the possibility of using samplers, such as [MicroCanonical Hamiltonian MonteCarlo](https://github.com/JaimeRZP/MicroCanonicalHMC.jl), that can easily run on a GPU.
+Although the former is (in general) faster for our applications, the latter opens to the possibility of using ensamble samplers, such as [MicroCanonical Hamiltonian MonteCarlo](https://github.com/JaimeRZP/MicroCanonicalHMC.jl), that can easily run on a GPU.
 
 
 Our emulators are differentiable, _i.e._ we can use automatic (also dubbed _algorithmic_) differentiation in order to evaluate derivatives. This enable for gradient-based methods, such as the minimization L-BFGS algorithm (as implemented in [`Optim.jl`](https://github.com/JuliaNLSolvers/Optim.jl)) or the Hamiltonian MonteCarlo inference algorithm (as implemented in [`Turing.jl`](https://github.com/TuringLang/Turing.jl)).
