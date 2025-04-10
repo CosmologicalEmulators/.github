@@ -8,6 +8,7 @@ Actually, the observables we emulates are:
 
 - CMB angular Power Spectrum, with [`Capse.jl`](https://github.com/CosmologicalEmulators/Capse.jl)
 - Galaxy Clustering Power Spectrum multipoles based on EFT with [`Effort.jl`](https://github.com/CosmologicalEmulators/Effort.jl)
+- Linear and Nonlinear Matter Power Spectra with [`Mapse.jl`](https://github.com/CosmologicalEmulators/Mapse.jl)
 - BAO correlation function with [`Bora.jl`](https://github.com/CosmologicalEmulators/Bora.jl)
 
 We also provide a package, [`EmulatorsTrainer.jl`](https://github.com/CosmologicalEmulators/EmulatorsTrainer.jl), that has utilities to create training datasets, train emulators, and validate their performance.
