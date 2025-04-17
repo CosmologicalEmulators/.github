@@ -33,6 +33,7 @@ Our codes have been officially released in the following publications:
 - Bonici, D'Amico, Bel, and Carbone, _Effort.jl:  a fast and differentiable emulator for the Effective Field Theory of the Large Scale Structure of the Universe_ [![arXiv](https://img.shields.io/badge/arXiv-2501.04639-b31b1b.svg)](https://arxiv.org/abs/2501.04639)
 
 The codes previously listed are used in the following publications:
+- Zhang, Bonici, Rocher, Percival, de Mattia, et al., _Enhancing DESI DR1 Full-Shape analyses using HOD-informed priors_, _[![arXiv](https://img.shields.io/badge/arXiv-2504.10407-b31b1b.svg)](https://arxiv.org/abs/2504.10407)
 - Baleato Lizancos, Seljak, Karamanis, Bonici, Ferraro, _Selecting samples of galaxies with fewer Fingers-of-God_, [![arXiv](https://img.shields.io/badge/arXiv-2501.10587-b31b1b.svg)](https://arxiv.org/abs/2501.10587)
 - Paradiso, Bonici, Chen, Percival, D'Amico, Zhang, and McGee, _Reducing nuisance prior sensitivity via non-linear reparameterization, with application to EFT analyses of large-scale structure_ [![arXiv](https://img.shields.io/badge/arXiv-2412.03503-b31b1b.svg)](https://arxiv.org/abs/2412.03503)
 - SPT Collaboration, _Cosmology From CMB Lensing and Delensed EE Power Spectra Using 2019-2020 SPT-3G Polarization Data_ [![arXiv](https://img.shields.io/badge/arXiv-2307.14339-b31b1b.svg)](https://arxiv.org/abs/2307.14339)
