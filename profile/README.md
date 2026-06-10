@@ -2,14 +2,14 @@
 
 <img width="250" alt="CosmologicalEmulators logo" src="https://github.com/CosmologicalEmulators/.github/assets/58727599/e8f44547-113c-48a0-b69d-0d14957f82e2">
 
-This Github organization puts together several codes, whose aim is to emulate cosmological observables as predicted by Einsten-Boltzmann solvers and Perturbation Theory codes. The main programming language employed in these repositories is `Julia`, but we are working on `Python` versions that are based on `JAX`.
+This Github organization puts together several codes, whose aim is to emulate cosmological observables as predicted by Einsten-Boltzmann solvers and Perturbation Theory codes. The main programming language employed in these repositories is `Julia`, but we also have pure `jax` ports of these packages.
 
 Actually, the observables we emulates are:
 
 - CMB angular Power Spectrum, with [`Capse.jl`](https://github.com/CosmologicalEmulators/Capse.jl) and [`jaxcapse`](https://github.com/CosmologicalEmulators/jaxcapse)
 - Galaxy Clustering Power Spectrum multipoles based on EFT with [`Effort.jl`](https://github.com/CosmologicalEmulators/Effort.jl) and [`jaxeffort`](https://github.com/CosmologicalEmulators/jaxeffort)
-- Linear and Nonlinear Matter Power Spectra with [`Mapse.jl`](https://github.com/CosmologicalEmulators/Mapse.jl)
-- BAO correlation function with [`Bora.jl`](https://github.com/CosmologicalEmulators/Bora.jl)
+- Linear and Nonlinear Matter Power Spectra with [`Mapse.jl`](https://github.com/CosmologicalEmulators/Mapse.jl) and [`jaxmapse`](https://github.com/CosmologicalEmulators/jaxmapse)
+- BAO correlation function with [`Bora.jl`](https://github.com/CosmologicalEmulators/Bora.jl) and [`jaxbora`](https://github.com/CosmologicalEmulators/jaxbora)
 
 We also provide a package, [`EmulatorsTrainer.jl`](https://github.com/CosmologicalEmulators/EmulatorsTrainer.jl), that has utilities to create training datasets, train emulators, and validate their performance.
 
@@ -18,7 +18,7 @@ Currently, we employ two different neural network backends for the `Julia` emula
 - [`SimpleChains.jl`](https://github.com/PumasAI/SimpleChains.jl), a high-performance framework tailored for small NNs running on a CPU
 - [`Lux.jl`](https://lux.csail.mit.edu/stable/), which is fully GPU compatible
 
-Although the former is (in general) faster for our applications, the latter opens to the possibility of using ensamble samplers, such as [MicroCanonical Hamiltonian MonteCarlo](https://github.com/JaimeRZP/MicroCanonicalHMC.jl), that can easily run on a GPU. For the `JAX` emulators, we employ [`flax`](https://github.com/google/flax) as the NN-backend.
+Although the former is (in general) faster for our applications, the latter opens to the possibility of compiling the whole pipeline with [`Reactant.jl`](https://github.com/EnzymeAD/Reactant.jl), which gives for free compatibility with hardware accelerators (GPUs and TPUs) and high-performance differentiation with [`Enzyme.jl`](https://github.com/EnzymeAD/Enzyme.jl). For the `JAX` emulators, we employ [`flax`](https://github.com/google/flax) as the NN-backend.
 
 Our emulators are differentiable, _i.e._ we can use automatic (also dubbed _algorithmic_) differentiation in order to evaluate derivatives. This enable for gradient-based methods, such as the minimization L-BFGS algorithm (as implemented in [`Optim.jl`](https://github.com/JuliaNLSolvers/Optim.jl)) or the Hamiltonian MonteCarlo inference algorithm (as implemented in [`Turing.jl`](https://github.com/TuringLang/Turing.jl)). The same is true for our `JAX`-based emulators, which we explicitely check can be differentiated end-to-end.
 
