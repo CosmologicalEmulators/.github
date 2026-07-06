@@ -29,6 +29,8 @@ Our codes have been officially released in the following publications:
 - Bonici, D'Amico, Bel, and Carbone, _Effort.jl:  a fast and differentiable emulator for the Effective Field Theory of the Large Scale Structure of the Universe_ [![arXiv](https://img.shields.io/badge/arXiv-2501.04639-b31b1b.svg)](https://arxiv.org/abs/2501.04639)
 
 The codes previously listed are used in the following publications:
+
+- Bonici, Paradiso, McGee, D'Amico, Karamanis, Zhang, Percival, et al., _Alleviating prior dependencies for DESI DR1 clustering fits through reparameterization_ [![arXiv](https://img.shields.io/badge/arXiv-2607.02498-b31b1b.svg)](https://arxiv.org/abs/2607.02498)
 - Crespi, Percival, Krolewski, Bonici, et al., _Baryon fraction from the BAO amplitude: a consistent approach to parameterizing perturbation growth_ [![arXiv](https://img.shields.io/badge/arXiv-2511.23459-b31b1b.svg)](https://arxiv.org/abs/2511.23459)
 - Krolewski, Crespi, Percival, Bonici, et al., _A measurement of H0 from DESI DR1 using energy densities_ [![arXiv](https://img.shields.io/badge/arXiv-2511.23432-b31b1b.svg)](https://arxiv.org/abs/2511.23432)
 - Crespi, Bonici, Loureiro, et al., _Flinch: A Differentiable Framework for Field-Level Inference of Cosmological parameters from curved sky data_ [![arXiv](https://img.shields.io/badge/arXiv-2510.26691-b31b1b.svg)](https://arxiv.org/abs/2510.26691v1)
