@@ -4,6 +4,8 @@
 
 This Github organization puts together several codes, whose aim is to emulate cosmological observables as predicted by Einsten-Boltzmann solvers and Perturbation Theory codes. The main programming language employed in these repositories is `Julia`, but we also have pure `jax` ports of these packages.
 
+The core of the whole organization is represented by [`AbstractCosmologicalEmulators.jl`](https://github.com/CosmologicalEmulators/AbstractCosmologicalEmulators.jl) and [`jaxace`](https://github.com/CosmologicalEmulators/jaxace). These two packages contain the neural network backend, with methods to load pretrained neural networks and run them, as well as utilities as Chebyshev polynomials, Akima, and Cubic splines.
+
 Actually, the observables we emulates are:
 
 - CMB angular Power Spectrum, with [`Capse.jl`](https://github.com/CosmologicalEmulators/Capse.jl) and [`jaxcapse`](https://github.com/CosmologicalEmulators/jaxcapse)
